@@ -1,2 +1,47 @@
-# Game_of_live
- 
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <h3 align="center">Game of live</h3>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+Here is my interpretation of the Game of live.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/wusi23/Game_of_live.git
+   ```
+2. Install pygame, numpy packages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Your Name - github@wusi.at
+
+Project Link: [https://github.com/wusi23/Game_of_live](https://github.com/wusi23/Game_of_live)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
