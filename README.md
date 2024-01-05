@@ -3,7 +3,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <h3 align="center">Game of live</h3>
+    <a href="https://github.com/wusi23/Game_of_live">
+    <img src="img/game_of_live_title_01.png" alt="Logo" width="80" height="80">
+    <h1 align="center">Game of live</h1>
 </div>
 
 <!-- ABOUT THE PROJECT -->
