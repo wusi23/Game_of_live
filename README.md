@@ -50,10 +50,10 @@ Press Mousebutton to place seed on the field.
 
 ### Keybindings
 
-- `Spacebar` Start and Stop
-- `  +   ` accelerate generations
-- `  -   ` decelerate generations
-- `  0   ` setting speed to default
+- `Spacebar` Start and Stop generations
+- ` + ` accelerate generations
+- ` - ` decelerate generations
+- ` 0 ` setting speed to default
 
 <!-- LICENSE -->
 
