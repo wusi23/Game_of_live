@@ -1,3 +1,7 @@
+# my own files
+struktur.drawio
+.branch_names.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
