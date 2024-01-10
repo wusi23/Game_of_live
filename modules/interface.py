@@ -15,3 +15,7 @@ def mouseEvent(event, vals, grid):
         mouse_x = (int(pos[0] / vals.GRID_SIZE))
         mouse_y = (int(pos[1] / vals.GRID_SIZE))
         grid.markCells((mouse_x, mouse_y))
+        
+def gameStart(check):
+    if pygame.key.get_pressed()[pygame.K_SPACE]:
+            check.running = True
