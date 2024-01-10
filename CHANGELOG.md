@@ -1,12 +1,12 @@
 # Changelog
 
-## v0.1.0
+## v0.2.0
 
 ### Added or Changed
 
-- Added this changelog :)
-- Setting up the project
+- rebuild projekt
+- splitting code in seperated files
 
 ### Removed
 
-- nothing in the moment
+- old main.py
