@@ -3,7 +3,10 @@
 class cellckecking:
     def __init__(self) -> None:
         self.running = False
-    
+   
+    def startStop(self):
+           self.running = not self.running
+
     def update(self, grid):
         new_grid = [ [0] * grid.cols for _ in range(grid.rows)]
         if self.running:
@@ -48,5 +51,7 @@ class cellckecking:
                     else:
                         if count == 3:
                             new_grid[i][j] = 1
-           
             grid.grid = new_grid
+
+if __name__ == "__main__":
+    print(f'Please open Programm wiht ../main.py.')

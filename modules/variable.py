@@ -8,8 +8,11 @@ class Settings:
         self.FIELD_BACKGROUND = (150, 150, 150)
         self.FIELD_COLOR = (255, 255, 255)
         self.WINDOW_SIZE = (800, 800)
-        self.FPS = 10
-
+        self.FPS = 30
+        self.INIT_SPEED = 10
+        self.MAX_SPEED = 20
+        self.GAME_SPEED = 10 
+        self.WINDOW_OPEN = True
 
 
 if __name__ == "__main__":

@@ -31,11 +31,11 @@ Here is my interpretation of the Game of live.
 2. Pip install pygame and numpy packages
    ```sh
    pip install pygame
-   pip install numpy
    ```
 3. Start main.py
    ```sh
    python main.py
+   python3 main.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
