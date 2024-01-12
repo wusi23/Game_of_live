@@ -1,15 +1,15 @@
 
 
-class cellckecking:
-    def __init__(self) -> None:
-        self.running = False
-   
+class CellCheck:
+    def __init__(self, vals, rules) -> None:
+        self.vals = vals
+        self.rules = rules
     def startStop(self):
-           self.running = not self.running
+        self.vals.GAME_RUNNING = not self.vals.GAME_RUNNING  
 
     def update(self, grid):
         new_grid = [ [0] * grid.cols for _ in range(grid.rows)]
-        if self.running:
+        if self.vals.GAME_RUNNING:
             # i is col 
             # j is row
             for i in range(len(grid.grid)):
@@ -46,10 +46,10 @@ class cellckecking:
                             if grid.grid[i][j + 1]:
                                 count += 1
                     if grid.grid[i][j]:
-                        if count == 2 or count == 3:
+                        if self.rules.updateAlive(count):
                             new_grid[i][j] = 1
                     else:
-                        if count == 3:
+                        if self.rules.updateDead(count):
                             new_grid[i][j] = 1
             grid.grid = new_grid
 
